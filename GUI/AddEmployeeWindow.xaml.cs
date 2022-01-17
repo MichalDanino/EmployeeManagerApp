@@ -72,7 +72,7 @@ namespace GUI
             foreach (Control textBox in StackPanelAdds.Children)
             {
                 if (textBox.GetType() == typeof(TextBox))
-                (textBox as TextBox).Text = string.Empty;
+                 (textBox as TextBox).Text = string.Empty;
             }
         }
         //check legal
